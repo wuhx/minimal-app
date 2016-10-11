@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Minimal App</title>
-    </head>
-    <body>
-
-    	<div>a minimal app</div>
-
+      <head>
+        <title>不读:微信你的Kindle</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="app.css" />
+        <link href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.1.2/css/bulma.min.css" />
+      </head>
+      <body>
+        <script type="text/javascript" src="app.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript">
-            document.addEventListener('deviceready', function() { alert('device is ready'); }, false);
-        </script>
-    </body>
+        <script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.js"></script>
+        <div id="application-container"></div>
+        <script type="text/javascript"> com.neveread.App().main() </script>
+      </body>
 </html>
