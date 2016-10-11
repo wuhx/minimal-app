@@ -1,0 +1,29 @@
+#login {
+  background: url('http://7u2pdt.com1.z0.glb.clouddn.com/kids_h.jpg')  no-repeat center center fixed;
+}
+
+#login-box {
+  width: 300px;
+  opacity:0.9;
+}
+
+#login_fail_notify {
+    display: none;
+}
+
+#userinfo-box {
+    padding-top:0px;
+    margin: auto;
+    max-width:500px;
+}
+.userinfo-input:focus {
+    outline-width: 0;
+}
+
+body {
+  font-family: -apple-system,PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Helvetica Neue,sans-serif !important;
+}
+
+.button {
+  display: inline-block;
+}
